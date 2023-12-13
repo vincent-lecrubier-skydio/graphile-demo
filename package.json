@@ -1,0 +1,41 @@
+{
+  "name": "@skydio/graphile",
+  "private": true,
+  "packageManager": "yarn@3.5.1",
+  "scripts": {
+    "postgraphile": "postgraphile",
+    "server": "ts-node --esm server.mts"
+  },
+  "dependencies": {
+    "@graphile-contrib/pg-many-to-many": "^2.0.0-beta.1",
+    "@graphile/pg-aggregates": "^0.2.0-beta.1",
+    "@graphile/simplify-inflection": "^8.0.0-beta.1",
+    "@types/node": "20.5.1",
+    "body-parser": "1.20.2",
+    "express": "^4.18.2",
+    "grafast": "^0.0.1-beta.5",
+    "graphile": "^5.0.0-beta.3",
+    "graphile-build": "^5.0.0-beta.6",
+    "graphile-config": "^0.0.1-beta.1",
+    "graphile-utils": "^5.0.0-beta.3",
+    "graphql": "16.8.0",
+    "postgraphile": "^5.0.0-beta.3",
+    "postgraphile-plugin-connection-filter": "^3.0.0-beta.1",
+    "sofa-api": "0.18.0",
+    "tamedevil": "0.0.0-beta.1",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/express": "^4.17.17",
+    "prettier": "^2.8.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "prettier": {
+    "proseWrap": "always"
+  },
+  "volta": {
+    "node": "16.20.2"
+  }
+}
